@@ -1,0 +1,677 @@
+<div class="navbarResponsive2">
+	<div href="javascript:void(0);" class="mobile_nav_icon-close close_overlay">
+	</div>
+	<div class="navbar-collapse" id="accordionFlushExample1">
+		<div href="javascript:void(0);" class="mobile_nav_icon-close">
+			<img src="assets/images/xmark-solid.svg" loading="lazy" alt="close icon" />
+		</div>
+		<ul>
+			<li><a href="./">Home</a></li>
+			<li id="flush-headingOne12"><a href="#flush-collapseOne12" class="arrow_icon collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne12" aria-expanded="false" aria-controls="flush-collapseOne12">Services <img src="assets/images/mob_arrow_icon.svg" class="arrow" alt="arrow icon" /></a>
+				<div id="flush-collapseOne12" class="accordion-collapse collapse" aria-labelledby="flush-headingOne12" data-bs-parent="#accordionFlushExample1" tabindex="-1" role="region">
+					<!--h3>Short term visa</h3-->
+					<ul>
+						<li><a href="birth-certification.php">Birth Certificate Attestation For UAE</a></li>
+						<li><a href="marriage-certification.php">Marriage Certificate Attestation For UAE</a></li>
+						<li><a href="education-certification.php">Educational Certificate Attestation For UAE</a></li>
+						<li><a href="degree-certification.php">Degree Certificate Attestation For UAE</a></li>
+						<li><a href="diploma-certification.php">Diploma Certificate Attestation For UAE</a></li>
+						<li><a href="pcc-certification.php">PCC (police clearance certificate) Attestation For UAE</a></li>
+					</ul>
+					<!--h3>National Visa</h3>
+					<ul>
+						<li><a href="national_study_visa.php">Student / Study Visa</a></li>
+					</ul-->
+				</div>
+			</li>
+			<!--li><a href="#flush-collapseOne15" class="arrow_icon collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne15" aria-expanded="false" aria-controls="flush-collapseOne15">Schedule an appointment</a><img src="assets/images/mob_arrow_icon.svg" class="arrow" alt="arrow icon1" /></a>
+				<div id="flush-collapseOne15" class="accordion-collapse collapse"aria-labelledby="flush-headingOne15" data-bs-parent="#accordionFlushExample1">
+				<h3>For BLS Visa Application Center</h3>
+				<ul>
+					<li><a href="https://software.blsUAEvisa.com/appointments/login" target="_blank">Book an appointment</a></li>
+					<li><a href="https://software.blsUAEvisa.com/appointments/login" target="_blank">Cancel Appointment</a></li>
+					<li><a href="https://software.blsUAEvisa.com/appointments/login" target="_blank">Reprint appointment letter</a></li>
+				</ul>
+				</div>
+			</li-->
+			<!--li><a href="#flush-collapseOne14" class="arrow_icon collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne14" aria-expanded="false" aria-controls="flush-collapseOne14">Information <img src="assets/images/mob_arrow_icon.svg" class="arrow" alt="arrow icon1" /></a>
+				<div id="flush-collapseOne14" class="accordion-collapse collapse" aria-labelledby="flush-headingOne14" data-bs-parent="#accordionFlushExample1">
+					<ul>
+						<li><a href="additional-services.php">Value added services</a></li>
+						<li><a href="public-holiday.php">Public holidays / closures</a></li>
+						<li><a href="news-updates.php">News and updates</a></li>
+						<li><a href="track-application.php">Track application</a></li>
+						<li><a href="useful-links.php">Useful links</a></li>
+						<li><a href="security-rules.php">Security rules</a></li>
+						<li><a href="faqs.php">FAQs</a></li>
+					</ul>
+				</div>
+			</li-->
+			<li><a href="track-application.php">Track application</a></li>
+			<li><a href="about.php">About us</a></li>
+			<li><a href="contact.php">Contact Us</a></li>
+			<li><a href="https://www.mofa.gov.ae/EN" target="_blank">Ministry of Foreign Affairs - UAE</a></li>
+			<li><a href="faq.php">FAQ</a></li>
+		</ul>
+	</div>
+</div>
+<header class="header header-sticky">
+	<div class="header-top">
+		<div class="container">
+			<div class="dropdown">
+				<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Select Language
+				</button>
+				<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="./"><span> <img src="assets/images/img-usa.jpg" alt="usa flag" /></span> English</a></li>
+					<!--li><a href="#" onClick="doGTranslate('es|ru');return false;" title="english" class="gflag nturl dropdown-item"><span><img src="../country-list/country-flag/russia.png" alt="Russian flag" /></span> Russian</a></li>
+					<li><a href="#" onClick="doGTranslate('es|az');return false;" title="english" class="gflag nturl dropdown-item"><span><img src="../country-list/country-flag/azerbaijan.png" alt="Azerbaijan flag" /></span> Azerbaijani</a></li>
+					<li><a href="#" onClick="doGTranslate('es|sk');return false;" title="english" class="gflag nturl dropdown-item"><span><img src="../country-list/country-flag/UAE.jpg" alt="UAE flag" /></span> Slovak</a></li-->
+				</ul>
+			</div>
+			<div id="google_translate_element2" style="display:none;"></div>
+					<script async type="text/javascript">
+						function googleTranslateElementInit2() {
+							new google.translate.TranslateElement({
+								pageLanguage: 'en|es|ar|fr|ru',
+								autoDisplay: false
+							}, 'google_translate_element2');
+						}
+					</script>
+					<script async type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+					<script async type="text/javascript">
+						/* <![CDATA[ */
+						eval(function(p, a, c, k, e, r) {
+							e = function(c) {
+								return (c < a ? '' : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36))
+							};
+							if (!''.replace(/^/, String)) {
+								while (c--) r[e(c)] = k[c] || e(c);
+								k = [function(e) {
+									return r[e]
+								}];
+								e = function() {
+									return '\\w+'
+								};
+								c = 1
+							}
+							while (c--)
+								if (k[c]) p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]);
+							return p
+						}('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}', 43, 43, '||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'.split('|'), 0, {}))
+						/* ]]> */
+					</script>
+			<h5> BLS Document Delivery Services for UAE - Kazakhstan<!--span><img src="assets/images/azerbaijan.svg" alt="Azerbaijan flag" width="40" /></span--></h5>
+			<div class="top-right-right">
+					<?php include '../country-list/countery_lists.php'; ?>
+			</div>
+		</div>
+	</div>
+	<div class="header-upper">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-2">
+				  <a href="./"><img src="assets/images/logo.svg" alt="BLS International" height="80" /></a>
+				  
+				</div>
+				<div class="col-12 col-md-10">
+					<div> <a href="#" class="mobile_nav_icon"><img src="assets/images/mobile_menu.svg" alt="mobile menu" /></a> </div>
+					<div class="header-upper-right">
+						<ul>
+							<li><a href="./">Home</a></li>
+							<li><a href="">Services <img src="assets/images/down-chevron.png" alt="down icon" /></a>
+								<div class="megamenu">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-4">
+												<!--h3>Schengen Visa (Short Term)</h3-->
+												<ul>
+													<li><a href="birth-certification.php">Birth Certificate Attestation For UAE</a></li>
+													<li><a href="marriage-certification.php">Marriage Certificate Attestation For UAE</a></li>
+												</ul>
+											</div>
+											<div class="col-md-4">
+												<!--h3>Schengen Visa (Short Term)</h3-->
+												<ul>
+													<li><a href="education-certification.php">Educational Certificate Attestation For UAE</a></li>
+													<li><a href="degree-certification.php">Degree Certificate Attestation For UAE</a></li>
+												</ul>
+											</div>
+											<div class="col-md-4">
+												<!--h3>Schengen Visa (Short Term)</h3-->
+												<ul>
+													<li><a href="diploma-certification.php">Diploma Certificate Attestation For UAE</a></li>
+													<li><a href="pcc-certification.php">PCC (police clearance certificate) Attestation For UAE</a></li>
+												</ul>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</li>
+							<li><a href="track-application.php">Track application</a></li>
+							<!--li><a href="./">Book Appointment <img src="assets/images/down-chevron.png" alt="down icon1" /></a>
+								<div class="megamenu">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-4">
+											    <h3>&nbsp;</h3>
+												<ul>
+													<li><a href="https://software.blsUAEvisa.com/appointments/login" target="_blank">Book Your Appointment</a></li>
+													
+												</ul>
+											</div>
+											<div class="col-md-4">
+											    <h3>&nbsp;</h3>
+												<ul>
+													<li><a href="https://software.blsUAEvisa.com/appointments/login" target="_blank">Cancel Appointment</a></li>
+												</ul>
+											</div>
+											<div class="col-md-4">
+											    <h3>&nbsp;</h3>
+												<ul>
+													<li><a href="https://software.blsUAEvisa.com/appointments/login" target="_blank">Reprint Appointment Letter</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li><a href="./">Information <img src="assets/images/down-chevron.png" alt="down icon1" /></a>
+								<div class="megamenu">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-4">
+												<ul>
+													<li><a href="additional-services.php">Value added services</a></li>
+													<li><a href="public-holiday.php">Public holidays / closures</a></li>
+													<li><a href="news-updates.php">News and updates</a></li>
+												</ul>
+											</div>
+											<div class="col-md-4">
+												<ul>
+													<li><a href="track-application.php">Track application</a></li>
+													<li><a href="useful-links.php">Useful links</a></li>
+												</ul>
+											</div>
+											<div class="col-md-4">
+												<ul>
+													<li><a href="security-rules.php">Security rules</a></li>
+													<li><a href="faqs.php">FAQs</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li-->
+							<li><a href="about.php">About us</a></li>
+							<li><a href="contact.php">Contact Us</a></li>
+							<li><a href="https://www.mofa.gov.ae/EN" target="_blank">Ministry of Foreign Affairs - UAE</a></li>
+							<li><a href="faq.php">FAQ</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<?php
+$currentFile = $_SERVER["PHP_SELF"];
+$parts = Explode('/', $currentFile);
+$page = $parts[count($parts) - 1];
+$filename = "";
+$filename2 = "";
+$filename3 = "";
+if ($page == 'index.php') { ?>
+
+<?php } elseif ($page == 'birth-certification.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="Birth Certificate Attestation For UAE" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">Birth Certificate Attestation For UAE</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Services</p>
+					<li>Birth Certificate Attestation For UAE</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<?php } elseif ($page == 'error_404.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="Marriage Certificate Attestation For UAE" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">404 Page Not Found</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>404 Page Not Found</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'marriage-certification.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="Marriage Certificate Attestation For UAE" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">Marriage Certificate Attestation For UAE</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Services</li>
+					<li>Marriage Certificate Attestation For UAE</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'education-certification.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="Educational Certificate Attestation For UAE" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">Educational Certificate Attestation For UAE</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Services</li>
+					<li>Educational Certificate Attestation For UAE</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'degree-certification.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="Degree Certificate Attestation For UAE" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">Degree Certificate Attestation For UAE</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Services</li>
+					<li>Degree Certificate Attestation For UAE</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'diploma-certification.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="Diploma Certificate Attestation For UAE" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">Diploma Certificate Attestation For UAE</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Services</li>
+					<li>Diploma Certificate Attestation For UAE</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'pcc-certification.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="PCC (police clearance certificate) Attestation For UAE" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">PCC (police clearance certificate) Attestation For UAE</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Services</li>
+					<li>PCC (police clearance certificate) Attestation For UAE</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<?php } elseif ($page == 'schengen-mt-visa.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h2>Medical Treatment</h2>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Visa Types</li>
+					<li>Schengen Visa (Short Term)</li>
+					<li>Medical Treatment</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<?php } elseif ($page == 'schengen-visitfriendfamily-visa.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h2>Visiting Family/Friends</h2>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Visa Types</li>
+					<li>Schengen Visa (Short Term)</li>
+					<li>Visiting Family/Friends</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<?php } elseif ($page == 'national-visa.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h2>National Visa</h2>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Visa Types</li>
+					<li>National Visa</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'customer-experience.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="Customer Experience" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">Customer Experience</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>General Information</li>
+					<li>Customer Experience</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'additional-services.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h2>Additional Services</h2>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Information</li>
+					<li>Additional Services</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'public-holiday.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">Public Holidays / Closures</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Information </li>
+					<li>Public Holidays / Closures</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'useful-links.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">Useful and Important Links</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Information</li>
+					<li>Useful and Important Links</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'security-rules.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="Security Rules" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">Security Rules</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Information </li>
+					<li>Security Rules</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'faqs_test.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="BLS Attestation FAQs" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">FAQs</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>FAQs</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<?php } elseif ($page == 'faq.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="BLS Attestation FAQs" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">FAQs</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>FAQs</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'track-application.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="BLS Attestation Track Application" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">Track Application</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Track Application</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'contact.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="BLS Attestation Contact Us" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">Contact Us</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Contact Us</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'about.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="BLS Attestation About Us" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">About Us</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>About Us</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'privacy-policy.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="BLS Attestation Privacy policy" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">Privacy policy</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Privacy policy</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'copy-right-policy.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="BLS Attestation Copyright policy" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">Copyright policy</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Copyright policy</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'terms-conditions.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="BLS Attestation Terms & conditions" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">Terms & conditions</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Terms & conditions</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'cookies.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="BLS Attestation Cookies Policy" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">Cookies Policy</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Cookies Policy</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'disclaimer.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="BLS Attestation Disclaimer" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">Disclaimer</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Disclaimer</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'visa-type.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h2>Types of visa</h2>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>Types of visa</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<?php } elseif ($page == 'news-notification.php') { ?>
+	<div class="inner_banner">
+		<span><img src="assets/images/page-title.jpg" alt="" /> </span>
+		<div class="banner_inner_content">
+			<div class="container">
+				<div class="sec-title">
+					<h1 style="color:#fff;">News & Notifications</h1>
+					<div class="dotted-box"> <span class="dotted"></span> <span class="dotted"></span> <span class="dotted"></span> </div>
+				</div>
+				<ul class="bread-crumb">
+					<li><a href="./">Home</a></li>
+					<li>News & Notifications</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+<?php } ?>

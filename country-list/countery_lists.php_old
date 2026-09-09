@@ -1,0 +1,24 @@
+<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Select country
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="height:160px; overflow:hidden; overflow-y:scroll;">
+						   <a href="../../uae-attestation/canada/" title="Canada" class="dropdown-item"><img src="../country-list/country-flag/canada.jpg" style="width:20px; height:14px;" alt="Canada" /> &nbsp;Canada</a>
+							<a href="../../uae-attestation/jordan/" title="Jordan" class="dropdown-item"><img src="../country-list/country-flag/jordan.jpg" style="width:20px; height:14px;" alt="Jordan" /> &nbsp;Jordan</a>
+							<?php
+							//$cversion = '../indonesia';
+							?>
+							<a href="../../uae-attestation/india" title="India" class="dropdown-item"><img src="../country-list/country-flag/india.jpg" style="width:20px; height:14px;" alt="India" /> &nbsp;India</a>
+							<?php
+							//$cversion = '../indonesia';
+							?>
+							<a href="../../uae-attestation/pakistan" title="Pakistan" class="dropdown-item"><img src="../country-list/country-flag/pakistan_img.jpg" style="width:20px; height:14px;" alt="Pakistan" /> &nbsp;Pakistan</a>
+							<?php
+							//$cversion = '../Kazakhstan';
+							?>
+							<a href="../../uae-attestation/russia" title="Russia" class="dropdown-item"><img src="../country-list/country-flag/russia.jpg" style="width:20px; height:14px;" alt="Russia" /> &nbsp;Russia</a>
+							<?php
+							//$cversion = '../Kuwait';
+							?>
+						</div>
+						</div>

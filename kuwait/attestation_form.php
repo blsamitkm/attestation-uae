@@ -1,0 +1,1 @@
+<p>Application form - <a href="#" target="_blank">Click here</a></p>
